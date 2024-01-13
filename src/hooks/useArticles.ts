@@ -18,7 +18,7 @@ export default function useArticles() {
             return response.json()
         })
         .then(response => {
-            articles.value = response
+            articles.value = response.reverse()
         })
     }
 

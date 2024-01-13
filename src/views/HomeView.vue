@@ -16,7 +16,7 @@ import useArticles from '@/hooks/useArticles'
 
 
     const articles = useArticles()
-
+    console.log(articles)
    
     const currentPage = ref<number>(1)
     const limit: number = 8   
