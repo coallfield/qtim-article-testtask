@@ -1,15 +1,15 @@
 <template>
 <div class="single-article-page">
     <div class="article-title">
-        <p>{{ article?.title }}</p>
+        <p>{{ article.title }}</p>
     </div>
     <div class="img-wrapper">
-        <img :src="article?.image">
+        <img :src="article.image">
     </div>
     <div class="about-part">
         <p>About</p>
         <div class="description">
-            <p>{{ article?.description }}</p>
+            <p>{{ article.description }}</p>
         </div>
     </div>
 
